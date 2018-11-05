@@ -40,7 +40,7 @@ namespace MatrixInSpiralForm
                     for (int i = columns - 1; i >= n; i--) {
                         Console.Write(matrix[rows-1,i]+" ");
                     }
-                    //Decrement rows as the last rows has been processed
+                    //Decrement rows as the last row has been processed
                     rows--;
                 }
 
@@ -49,7 +49,7 @@ namespace MatrixInSpiralForm
                         Console.Write(matrix[i,n]+" ");
                     }
                     n++;
-                    //Increment n as first column is processed
+                    //Increment n as first column has been processed
                 }
             }
         }
